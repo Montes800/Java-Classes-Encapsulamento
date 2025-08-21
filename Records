@@ -1,0 +1,13 @@
+public class Records {
+    public static void main(String[] args) {
+       var person = new Person( name: "joao", age: 12);
+       System.out.println(person);
+       System.out.println(person.name());
+       // System.out.println(person.name); // nao compila, atributo do record e privado.
+       //var newPeson = new Person(person.name(), age: 13);
+      
+
+
+
+    }
+}
