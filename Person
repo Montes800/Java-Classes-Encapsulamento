@@ -1,0 +1,13 @@
+public records Person(String name, int age) {
+    
+
+    public Person {
+        System.out.println("======");
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println("=======and");         
+    }
+
+    
+}
+// todo atributo do record e privado.
